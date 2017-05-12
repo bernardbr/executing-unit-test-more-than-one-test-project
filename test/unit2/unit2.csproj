@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Test.Unit2</AssemblyName>
+    <PackageId>Test.Unit2</PackageId>
+    <RootNamespace>Test.Unit2</RootNamespace>
+    <GenerateFullPaths>true</GenerateFullPaths>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix></VersionSuffix>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Test.Unit2</Authors>
+    <Company>Test.Unit2</Company>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <AssemblyTitle>Test.Unit2</AssemblyTitle>
+    <Description>
+      Test.Unit2.
+    </Description>
+    <Copyright>Test.Unit2</Copyright>
+    <UserSecretsId>Test.Unit2</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.0.0" />
+    <PackageReference Include="NUnit" Version="3.6.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.8.0-alpha1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\model\model.csproj" />
+  </ItemGroup>  
+</Project>
