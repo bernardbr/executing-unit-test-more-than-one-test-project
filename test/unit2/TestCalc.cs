@@ -15,7 +15,7 @@
         [Test]
         public void TestFailMethod()
         {
-            Assert.AreEqual(5, Calc.Sum(2, 1, 2));
+            Assert.AreEqual(7, Calc.Sum(2, 1, 2));
         }
     }
 }
